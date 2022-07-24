@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Blog Adilson Lima :: Bootstrap</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <script src="assets/js/jquery-3.2.1.slim.min.js" ></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <style>
+        .blue { color :rgb(53, 53, 181);}
+
+    </style>
+    <!-- maneira inteligente para mudar a cor de objetos class="blue"-->
+    <!-- style    .blue { color :rgb(53, 53, 181);}-->
+</head>
+<body>
+    <div class="container-fluid" style="background:red;"> <!--INCÍO container 1 apenas coluna sem row-->
+
+        <h1>Blog Adilson Lima :: Bootstrap</h1>
+        <p>Apenas colunas sem a tag row4</p>
+        
+        
+
+            <div class="col" style="background: blue;">
+                Coluna 1  de 8 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi vel maiores saepe blanditiis! Suscipit repudiandae tenetur quidem tempore ex illum officiis totam dicta minus nesciunt. Accusamus mollitia eaque molestias neque.
+            </div>
+            <div class="col" style="background: yellow;">
+                Coluna 2  de 8 Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit delectus totam temporibus eaque hic, in voluptatum voluptates dolorem ex, quia quibusdam pariatur neque amet? Accusamus facere beatae iure incidunt quo.
+            </div>
+            <div class="col" style="background: blue;">
+                Coluna 3  de 8 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias tempora voluptatum corrupti nostrum maiores placeat consectetur vero dolorum reiciendis quia eos excepturi dolor distinctio nam, iusto illo et soluta laudantium?
+            </div>
+            <div class="col" style="background: yellow;">
+                Coluna 4 de 8 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur natus fugiat ab exercitationem dolor culpa doloremque consectetur provident vero delectus temporibus vel animi beatae esse quos, libero sapiente optio rem.
+            </div>
+            <div class="col" style="background: blue;">
+                Coluna 5 de 8 
+            </div>
+            <div class="col" style="background: yellow;">
+                Coluna 6 de 8 
+            </div>
+            <div class="col" style="background: blue;">
+                Coluna 7 de 8 
+            </div>
+            <div class="col" style="background: yellow;">
+                    Coluna 8 de 8
+            </div>
+
+   
+    </div><!--FINAL DA CONTAINER 1-->
+    <div class="container-fluid" style="background:rgb(32, 165, 101);"> <!--INCÍO segundo container 2-->
+
+        <h1>Blog Adilson Lima :: Bootstrap</h1>
+        <p>colunas usando a tag row dentro da container</p>
+        <p>Lembrando que a row é dividida em 12 col portanto o a divisão é automática se não for citada o número de colunas utilizada pela div.. caso use ex: col-4 deve ser subtraido de 12</p>
+        
+        <div class="row"> <!--INÍCIO DA ROW-->
+
+            <div class="col-1" style="background: rgb(124, 124, 184);">
+                Coluna 1  de 8 ( class="col-1" )Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi vel maiores saepe blanditiis! Suscipit repudiandae tenetur quidem tempore ex illum officiis totam dicta minus nesciunt. Accusamus mollitia eaque molestias neque.
+            </div>
+            <div class="col-4" style="background: yellow;">
+                Coluna 2  de 8 ( class="col-4" ) Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit delectus totam temporibus eaque hic, in voluptatum voluptates dolorem ex, quia quibusdam pariatur neque amet? Accusamus facere beatae iure incidunt quo.
+            </div>
+            <div class="col-7" style="background: rgb(124, 124, 184);">
+                Coluna 3  de 8 ( class="col-7" ) Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias tempora voluptatum corrupti nostrum maiores placeat consectetur vero dolorum reiciendis quia eos excepturi dolor distinctio nam, iusto illo et soluta laudantium?
+            </div>
+            <div class="col" style="background: yellow;">
+                Coluna 4 de 8 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur natus fugiat ab exercitationem dolor culpa doloremque consectetur provident vero delectus temporibus vel animi beatae esse quos, libero sapiente optio rem.
+            </div>
+            <div class="col" style="background: blue;">
+                Coluna 5 de 8 
+            </div>
+            <div class="col" style="background: yellow;">
+                Coluna 6 de 8 
+            </div>
+            <div class="col" style="background: blue;">
+                Coluna 7 de 8 
+            </div>
+            <div class="col" style="background: yellow;">
+                    Coluna 8 de 8
+            </div>Fora da div Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum in est sint molestias? Vel, reprehenderit. Sapiente officia assumenda molestias, amet natus magni quaerat alias iusto nostrum corporis iure, soluta sunt!
+
+        </div><!--FINAL DA HOW-->
+    </div><!--FINAL DA CONTAINER 2-->
+    
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="assets/img/icon.png">
+    <title>Blog Adilson Lima :: Bootstrap</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <script src="assets/js/jquery-3.2.1.slim.min.js" ></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
+    <!-- maneira inteligente para mudar a cor de objetos class="blue"-->
+    <!-- style    .blue { color :rgb(53, 53, 181);}-->
+    <style>
+        body {background: #fff; font-family: "Open Sans", sans-serif}
+        .intro {background-image: url("assets/img/bg.png"); color: #fff}
+        .blue { color :rgb(53, 53, 181);}
+        .navbar .navbar-nav .nav-link {color: #fff}
+        footer {color: #fff}
+
+    </style>
+ 
+</head>
+<body>
+    <div class="container-fluid px-0"><!--px-0 retira espaçamento laterais-->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow fixed-top">
+                                                   <!--fixed-top navbar fixa -->
+                <a class="navbar-brand" href="#">
+                    <img src="assets/img/logo.png" class="img-fluid" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto"><!-- mr-atuo (ajus à direita) mr-auto(esquerdaB)-->
+
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fas fa-home"></i> Home </a>
+                     
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fas fa-users"></i> Sobre Nós</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fas fa-envelope"></i> Contato</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-search"></i> Pesquisar</a>
+                    </li>
+
+                  </ul>
+                  
+                </div>
+              </nav>
+
+              <div class="jumbotron jumbotron-fluid intro mt-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                           <h1 class="mb-4">#03 Aprenda Bootstrap 4</h1>
+                           <!-- class="mb-4" ajusta a margem-->
+                           <h4 class="mb-4">Curso de Desenvolvimento Web no Linux</h4>
+                           <h6 class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque aspernatur molestiae dignissimos saepe dolor? Soluta odit alias sit voluptatibus quasi. Illo autem ratione velit iusto enim iure perferendis, debitis tempora!</h6>
+                           <h6 class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque aspernatur molestiae dignissimos saepe dolor? Soluta odit alias sit voluptatibus quasi. Illo autem ratione velit iusto enim iure perferendis, debitis tempora!</h6>
+                        </div>
+                        <div class="col-sm-6 col-md-5 col-xl-5">
+                            <img src="assets/img/intro.png" alt="Intro" class="img-fluid">
+                        </div>
+    
+                    </div>
+                
+                </div>
+            </div> <!--FNAL jumbotron -->
+        </header>
+        <div class="container main mt-5">
+          
+            <h1 class='text-center'><i class="fas fa-user"></i> Sobre Nós
+            </h1>
+            <hr>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni alias reiciendis quas, dolorum quos beatae fugit aperiam ex tenetur, sunt dolores ad, illum ut accusantium nisi nihil. Animi, quibusdam sed!</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni alias reiciendis quas, dolorum quos beatae fugit aperiam ex tenetur, sunt dolores ad, illum ut accusantium nisi nihil. Animi, quibusdam sed!</p>
+
+        </div> <!--FINAL main-->
+        <div class="artigos container mt-5">
+            <h1 class='text-center'><i class="far fa-newspaper"></i> Artigos Recentes
+            </h1>
+            <hr>
+
+            <div class="row"> <!--row para os cards-->
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/img/image.svg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card mx-auto" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/img/image.svg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card mx-auto" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/img/image.svg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div><!--FINAL row para os CARDS-->
+
+           <hr>
+           <p class="mt-5">
+            <button type="button" class="btn btn-primary btn-lg">Veja todos os artigos</button>
+           </p>
+
+        </div><!--FINAL classe artigos-->
+       <footer class="jumbotron jumbotron-fluid bg-dark mb-0"> <!-- mb-margem bottom (fundo/baixo) -->
+           <p class="text-center">&reg; Todos os Direitos são Reservados</p>
+       </footer>
+
+    </div><!--FINAL DA CONTAINER-->
+    
+</body>
+</html>
